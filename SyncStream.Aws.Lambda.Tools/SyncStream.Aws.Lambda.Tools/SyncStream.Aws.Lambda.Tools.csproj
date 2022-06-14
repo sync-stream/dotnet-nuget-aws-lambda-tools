@@ -1,9 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net6.0</TargetFramework>
+        <Authors>syncstream-devops</Authors>
+        <Company>SyncStream Solutions</Company>
+        <Description>
+            This library contains tools for SyncStream's AWS Lambda Functions
+        </Description>
+        <DocumentationFile>https://github.com/sync-stream/dotnet-nuget-aws-lambda-tools</DocumentationFile>
         <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
+        <Nullable>disable</Nullable>
+        <PackageId>SyncStream.Aws.Lambda.Tools</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+        <RepositoryUrl>https://github.com/sync-stream/dotnet-nuget-aws-lambda-tools</RepositoryUrl>
+        <RootNamespace>SyncStream.Aws.Lambda.Tools</RootNamespace>
+        <TargetFramework>net6.0</TargetFramework>
+        <Version>1.0.0</Version>
     </PropertyGroup>
     
     <ItemGroup>
@@ -12,5 +24,4 @@
         <PackageReference Include="Amazon.Lambda.APIGatewayEvents" Version="2.4.1" />
         <PackageReference Include="SyncStream.Serializer" Version="1.0.0" />
     </ItemGroup>
-
 </Project>
